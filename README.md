@@ -61,7 +61,7 @@ directory = webman.get_directory(path='/dev_hdd0')
 file = directory.get_file('HENplugin.sprx') # returns None if it doesnt exist
 if file:
   print('HENplugin.sprx exists, HEN probably installed')
-  print(f'File path: {file.path}, size in bytes {file.get_size()}, MD5 {file.get_md5()}, download URL {file.get_url}')
+  print(f'File path: {file.path}, size in bytes {file.get_size()}, MD5 {file.get_md5()}, download URL {file.get_url()}')
 ```
 ### Get List of Games
 
