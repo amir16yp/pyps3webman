@@ -72,7 +72,7 @@ for game in games:
     print(game.title, game.directory_path)
 ```
 
-## Get a Game Cover
+### Get a Game Cover
 ```python
 games = webman.get_games_list()
 for game in games:
@@ -83,7 +83,7 @@ for game in games:
   # logic to download and verify the icon would go in here
 ```
 
-## Mount a Game
+### Mount a Game
 
 ```python
 games = webman.get_games_list()
